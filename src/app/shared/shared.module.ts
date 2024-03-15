@@ -5,6 +5,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { RouterModule } from '@angular/router';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { SearchBoxComponent } from './components/search-box/search-box.component';
 
 
 
@@ -13,7 +14,8 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
     HomePageComponent,
     SidebarComponent,
     AboutPageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    SearchBoxComponent
   ],
   imports: [
     CommonModule,
